@@ -4,16 +4,16 @@ const play = document.getElementById("play_button");
 
 
 // L’utente clicca su un bottone che genererà una griglia di gioco quadrata.
-// play.addEventListener("click", 
-//     function () {
-//     gridGenerateSquare(1,100);
+play.addEventListener("click", 
+    function () {
+    gridGenerateSquare(1,100);
                 
        
-//     }   
-// );
+    }   
+);
 
 
-play.addEventListener("click", gridGenerateSquare);
+// play.addEventListener("click", gridGenerateSquare);
 
 
 
