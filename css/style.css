@@ -13,9 +13,10 @@ header {
     margin: 0 5px;
 }
 
-#play_button {
+#play_button,select {
     padding: 2px 20px;
 }
+
 
 /* main */
 main {
