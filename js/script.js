@@ -54,6 +54,7 @@ let width;
         newSquare.addEventListener("click",
         function() {
             this.classList.add("active");
+            console.log(`Hai clickato il numero ${i}`);
         }
         );
 
